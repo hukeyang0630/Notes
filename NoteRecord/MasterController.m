@@ -74,6 +74,7 @@
     cell.textLabel.text = [dict objectForKey:@"Content"];
   //  cell.detailTextLabel.text = [dict objectForKey:@"CDate"];
     cell.detailTextLabel.text = [dict objectForKey:@"CDate"];
+    NSLog(@"....");
     
     
     return cell;
